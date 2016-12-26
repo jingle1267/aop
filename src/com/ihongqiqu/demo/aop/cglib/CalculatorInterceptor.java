@@ -1,4 +1,4 @@
-package com.ihongqiqu.demo.aop;
+package com.ihongqiqu.demo.aop.cglib;
 
 import net.sf.cglib.proxy.Enhancer;
 import net.sf.cglib.proxy.MethodInterceptor;

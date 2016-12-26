@@ -1,4 +1,4 @@
-package com.ihongqiqu.demo.aop;
+package com.ihongqiqu.demo.aop.proxy;
 
 /**
  * @author jingle1267

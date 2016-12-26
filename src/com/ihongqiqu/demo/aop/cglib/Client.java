@@ -1,4 +1,4 @@
-package com.ihongqiqu.demo.aop;
+package com.ihongqiqu.demo.aop.cglib;
 
 /**
  * @author jingle1267
@@ -9,6 +9,8 @@ package com.ihongqiqu.demo.aop;
 public class Client {
 
     public static void main(String[] args) {
+        System.out.println("CGLIB 动态代理");
+
         CalculatorInterceptor calculatorInterceptor = new CalculatorInterceptor();
         CalculatorImpl calculatorImpl = new CalculatorImpl();
 
